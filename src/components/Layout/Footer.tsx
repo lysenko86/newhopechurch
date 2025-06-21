@@ -1,62 +1,38 @@
 import { Link } from "react-router-dom";
 
-export const Footer = () => (
-  <div className="h-20 px-4 md:px-8 flex justify-between">
-    <div className="flex items-center">
-      <ul>
-        <li>
-          <Link
-            to="/link1"
-            className="h-12 px-6 flex items-center gap-x-3 font-bold text-black-100 *:text-black-54 hover:underline"
-          >
-            Some link 1
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/link2"
-            className="h-12 px-6 flex items-center gap-x-3 font-bold text-black-100 *:text-black-54 hover:underline"
-          >
-            Some link 2
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/link25"
-            className="h-12 px-6 flex items-center gap-x-3 font-bold text-black-100 *:text-black-54 hover:underline"
-          >
-            Some link 25
-          </Link>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <Link
-            to="/link3"
-            className="h-12 px-6 flex items-center gap-x-3 font-bold text-black-100 *:text-black-54 hover:underline"
-          >
-            Some link 3
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/link4"
-            className="h-12 px-6 flex items-center gap-x-3 font-bold text-black-100 *:text-black-54 hover:underline"
-          >
-            Some link 4
-          </Link>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <Link
-            to="/link5"
-            className="h-12 px-6 flex items-center gap-x-3 font-bold text-black-100 *:text-black-54 hover:underline"
-          >
-            Some link 5
-          </Link>
-        </li>
+import {
+  FacebookSvg,
+  InstagramSvg,
+  YoutubeSvg,
+  TelegramSvg,
+} from "@components/index";
+
+export const Footer = () => {
+  const links = [
+    { href: "https://www.facebook.com/zorychristians", icon: <FacebookSvg /> },
+    {
+      href: "https://www.instagram.com/newhopechurch.zory/",
+      icon: <InstagramSvg />,
+    },
+    {
+      href: "https://www.youtube.com/@NewHopeChurch_Zory",
+      icon: <YoutubeSvg />,
+    },
+    { href: "https://t.me/+mXpqN8f1IpZhNDli", icon: <TelegramSvg /> },
+  ];
+
+  return (
+    <div className="h-20 flex flex-col md:flex-row justify-between items-center mt-10 md:mt-0 px-4 bg-white-100 text-100">
+      <div>New Hope Church Żory 2025</div>
+      <ul className="flex items-center gap-x-10">
+        {links.map(({ href, icon }) => (
+          <li key={href} className="hover:-mt-2 duration-300">
+            <Link to={href} target="_blank">
+              {icon}
+            </Link>
+          </li>
+        ))}
       </ul>
     </div>
-  </div>
-);
+  );
+};
