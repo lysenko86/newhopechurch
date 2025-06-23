@@ -61,8 +61,8 @@ export const Header = () => {
                   <button
                     role="button"
                     className={clsx(
-                      "px-1 pt-1 border border-white-100 hover:border-primary-100 hover:text-primary-100",
-                      lang === value && "border-primary-100 text-primary-100",
+                      "px-1 pt-1 border hover:border-primary-100 hover:text-primary-100",
+                      lang !== value ? 'border-white-100' : "border-primary-100 text-primary-100",
                     )}
                     onClick={() => handleChangeLang(value)}
                   >
@@ -102,8 +102,8 @@ export const Header = () => {
                   <button
                     role="button"
                     className={clsx(
-                      "px-1 pt-1 border border-gray-500 hover:border-primary-100 hover:text-primary-100",
-                      lang === value && "border-primary-100 text-primary-100",
+                      "px-1 pt-1 border hover:border-primary-100 hover:text-primary-100",
+                      lang !== value ? "border-gray-500" : "border-primary-100 text-primary-100",
                     )}
                     onClick={() => handleChangeLang(value)}
                   >
