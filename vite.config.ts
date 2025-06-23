@@ -21,6 +21,7 @@ export default defineConfig({
       "@providers": resolve(__dirname, "src/providers"),
       "@hooks": resolve(__dirname, "src/hooks"),
       "@utils": resolve(__dirname, "src/utils"),
+      "@data": resolve(__dirname, "src/data"),
     },
   },
 

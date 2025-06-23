@@ -15,7 +15,8 @@
       "@services/*": ["./src/services/*"],
       "@providers/*": ["./src/providers/*"],
       "@hooks/*": ["./src/hooks/*"],
-      "@utils/*": ["./src/utils/*"]
+      "@utils/*": ["./src/utils/*"],
+      "@data/*": ["./src/data/*"]
     },
 
     /* Bundler mode */

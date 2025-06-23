@@ -57,12 +57,17 @@ export default {
       sans: ["Epilogue", "sans-serif"],
     },
     fontSize: {
+      500: ["48px", { lineHeight: "58px" }],
+      450: ["36px", { lineHeight: "44px" }],
+      400: ["32px", { lineHeight: "40px" }],
+      350: ["28px", { lineHeight: "36px" }],
       200: ["18px", { lineHeight: "27px" }],
       100: ["16px", { lineHeight: "27px" }],
     },
     fontWeight: {
       light: "400",
       normal: "500",
+      semibold: "600",
       bold: "700",
     },
   },
