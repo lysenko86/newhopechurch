@@ -6,9 +6,9 @@ export const HomePage = () => {
   const lang = useLang();
 
   return (
-    <div>
+    <div className="text-black-100">
       <img src={homeBg} width="100%" />
-      <div className="max-w-7xl mx-auto px-12 py-24">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 py-12 md:py-24">
         <h2 className="text-450 md:text-500 font-bold">
           {dataHomePage[lang].content[0]}
         </h2>

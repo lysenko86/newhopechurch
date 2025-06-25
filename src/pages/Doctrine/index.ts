@@ -1,0 +1,1 @@
+export { DoctrinePage } from "./DoctrinePage";

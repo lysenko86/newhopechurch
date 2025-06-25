@@ -26,7 +26,7 @@ export const Footer = () => {
   ];
 
   return (
-    <div className="h-20 flex flex-col md:flex-row justify-between items-center mt-10 md:mt-0 px-12 mb-5 md:mb-0 bg-white-100 text-100">
+    <div className="h-20 flex flex-col md:flex-row justify-between items-center mt-10 md:mt-0 px-6 md:px-12 mb-5 md:mb-0 bg-white-100 text-100 text-black-100">
       <div>{dataFooter[lang].copy}</div>
       <ul className="flex items-center gap-x-10">
         {links.map(({ href, icon }) => (

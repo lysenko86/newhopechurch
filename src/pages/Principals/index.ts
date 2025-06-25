@@ -1,1 +1,0 @@
-export { PrincipalsPage } from "./PrincipalsPage";

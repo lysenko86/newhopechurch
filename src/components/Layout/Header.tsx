@@ -18,8 +18,9 @@ export const Header = () => {
 
   const links = [
     { href: "/", label: dataHeader[lang].menu[0] },
-    { href: "/principals", label: dataHeader[lang].menu[1] },
-    { href: "/contacts", label: dataHeader[lang].menu[2] },
+    { href: "/doctrine", label: dataHeader[lang].menu[1] },
+    { href: "/videos", label: dataHeader[lang].menu[2] },
+    { href: "/contacts", label: dataHeader[lang].menu[3] },
   ];
 
   const [isCollapsed, setIsCollapsed] = useState(true);
@@ -31,7 +32,7 @@ export const Header = () => {
 
   return (
     <>
-      <nav className="fixed w-full h-28 flex justify-between items-center px-12 bg-white-100">
+      <nav className="fixed w-full h-28 flex justify-between items-center px-6 md:px-12 bg-white-100 text-black-100">
         <Link to="/" className="shrink-0">
           <img src={LogoImg} alt="Logo" width={200} />
         </Link>
@@ -49,7 +50,7 @@ export const Header = () => {
               <li key={href}>
                 <Link
                   to={href}
-                  className="flex items-center h-12 px-6 text-black-100 hover:text-primary-100"
+                  className="flex items-center h-12 px-6 hover:text-primary-100"
                 >
                   {label}
                 </Link>
@@ -62,7 +63,9 @@ export const Header = () => {
                     role="button"
                     className={clsx(
                       "px-1 pt-1 border hover:border-primary-100 hover:text-primary-100",
-                      lang !== value ? 'border-white-100' : "border-primary-100 text-primary-100",
+                      lang !== value
+                        ? "border-white-100"
+                        : "border-primary-100 text-primary-100",
                     )}
                     onClick={() => handleChangeLang(value)}
                   >
@@ -90,7 +93,7 @@ export const Header = () => {
               <li key={href}>
                 <Link
                   to={href}
-                  className="flex items-center h-12 px-6 text-black-100 hover:text-primary-100"
+                  className="flex items-center h-12 px-6 hover:text-primary-100"
                 >
                   {label}
                 </Link>
@@ -103,7 +106,9 @@ export const Header = () => {
                     role="button"
                     className={clsx(
                       "px-1 pt-1 border hover:border-primary-100 hover:text-primary-100",
-                      lang !== value ? "border-gray-500" : "border-primary-100 text-primary-100",
+                      lang !== value
+                        ? "border-gray-500"
+                        : "border-primary-100 text-primary-100",
                     )}
                     onClick={() => handleChangeLang(value)}
                   >

@@ -1,13 +1,13 @@
 export const dataHeader = {
   EN: {
-    menu: ["Home", "Doctrine", "Contacts"],
+    menu: ["Home", "Doctrine", "Videos", "Contacts"],
   },
 
   UA: {
-    menu: ["Головна", "Віровчення", "Контакти"],
+    menu: ["Головна", "Віровчення", "Відео", "Контакти"],
   },
 
   PL: {
-    menu: ["Główna", "Doktryna", "Kontakt"],
+    menu: ["Główna", "Doktryna", "Wideo", "Kontakt"],
   },
 };
