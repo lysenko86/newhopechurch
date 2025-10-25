@@ -16,6 +16,10 @@ export const ServicesPage = () => {
       <p>{dataServicesPage[lang].content[5]}</p>
       <p className="mt-4 font-semibold">{dataServicesPage[lang].content[6]}</p>
       <p>{dataServicesPage[lang].content[7]}</p>
+      <p className="mt-4 font-semibold">{dataServicesPage[lang].content[8]}</p>
+      <p>{dataServicesPage[lang].content[9]}</p>
+      <p className="mt-4 font-semibold">{dataServicesPage[lang].content[10]}</p>
+      <p>{dataServicesPage[lang].content[11]}</p>
     </div>
   );
 };

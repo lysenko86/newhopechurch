@@ -21,6 +21,21 @@ export const dataServicesPage = {
         For young people, we hold a youth club every Friday at 7:00 PM at ul.
         Kłapczyka 41c, 44-240 Żory
       </>,
+      <>Prayer Room Prayer Meetings</>,
+      <>
+        Let us pray together for our church, our families, our children and our
+        ministry in the Church. Uniting in spirit, as one family — New Hope
+        Church, let us give all our affairs to God. Meetings are held every
+        Wednesday at 7:30 p.m. at ul. Kłapczyka 41c, 44-240 Żory
+      </>,
+      <>AQUILA Football Club</>,
+      <>
+        We invite everyone to our training sessions — every Tuesday at 6:00 PM!
+        Location: 700-lecia St., School No. 3. Come if you love football, a
+        friendly atmosphere, and want to develop not only physically but also
+        spiritually. Together we don't just play — we grow in faith, strength,
+        and unity.
+      </>,
     ],
   },
 
@@ -46,8 +61,20 @@ export const dataServicesPage = {
         Для молоді ми проводимо молодіжний клуб щоп'ятниці о 19:00 за адресою
         ul. Kłapczyka 41c, 44-240 Żory
       </>,
-      // <>Молитовні зустрічі Prayer Room</>,
-      // <>Молімося разом за нашу церкву, наші родини, дітей та служіння у Церкві. Єднаючись у дусі, як одна сім’я — Церква New Hope, віддамо всі наші справи Богу ul. Kłapczyka 41c, 44-240 Żory</>,
+      <>Молитовні зустрічі Prayer Room</>,
+      <>
+        Молімося разом за нашу церкву, наші родини, дітей та служіння у Церкві.
+        Єднаючись у дусі, як одна сім’я — Церква New Hope, віддамо всі наші
+        справи Богу. Зустрічі проходять щосереди об 19:30 за адресою ul.
+        Kłapczyka 41c, 44-240 Żory
+      </>,
+      <>Футбольний клуб AQUILA</>,
+      <>
+        Запрошуємо всіх охочих на наші тренування — щовівторка о 18:00! Місце:
+        вул. 700-lecia, Школа №3. Приходь, якщо любиш футбол, дружню атмосферу
+        та бажаєш розвиватися не лише фізично, але й духовно. Разом ми не просто
+        граємо — ми зростаємо у вірі, силі та єдності.
+      </>,
     ],
   },
 
@@ -72,6 +99,20 @@ export const dataServicesPage = {
       <>
         Dla młodzieży organizujemy świetlicę w każdy piątek o godz. 19:00 przy
         ul. Kłapczyka 41c, 44-240 Żory
+      </>,
+      <>Spotkania modlitewne w sali modlitewnej</>,
+      <>
+        Módlmy się razem za nasz Kościół, nasze rodziny, nasze dzieci i naszą
+        posługę w Kościele. Zjednoczeni duchowo, jako jedna rodzina – Kościół
+        Nowej Nadziei, oddajmy wszystkie nasze sprawy Bogu. Spotkania odbywają
+        się w każdą środę o godzinie 19:30 przy ul. Kłapczyka 41c, 44-240 Żory
+      </>,
+      <>Klub piłkarski AQUILA</>,
+      <>
+        Zapraszamy wszystkich na treningi – w każdy wtorek o 18:00! Miejsce: ul.
+        700-lecia, Szkoła Podstawowa nr 3. Przyjdź, jeśli kochasz piłkę nożną,
+        przyjazną atmosferę i chcesz rozwijać się nie tylko fizycznie, ale i
+        duchowo. Razem nie tylko gramy – rośniemy w wierze, sile i jedności.
       </>,
     ],
   },
