@@ -22,7 +22,7 @@ export const Footer = () => {
       href: "https://www.youtube.com/@NewHopeChurch_Zory",
       icon: <YoutubeSvg />,
     },
-    { href: "https://t.me/+mXpqN8f1IpZhNDli", icon: <TelegramSvg /> },
+    { href: "https://t.me/+g0M0LkrAPLIzZjky", icon: <TelegramSvg /> },
   ];
 
   return (

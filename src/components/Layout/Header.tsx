@@ -19,8 +19,9 @@ export const Header = () => {
   const links = [
     { href: "/", label: dataHeader[lang].menu[0] },
     { href: "/doctrine", label: dataHeader[lang].menu[1] },
-    { href: "/videos", label: dataHeader[lang].menu[2] },
-    { href: "/contacts", label: dataHeader[lang].menu[3] },
+    { href: "/services", label: dataHeader[lang].menu[2] },
+    { href: "/videos", label: dataHeader[lang].menu[3] },
+    { href: "/contacts", label: dataHeader[lang].menu[4] },
   ];
 
   const [isCollapsed, setIsCollapsed] = useState(true);

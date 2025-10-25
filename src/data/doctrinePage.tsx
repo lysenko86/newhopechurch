@@ -1,7 +1,24 @@
 export const dataDoctrinePage = {
   EN: {
     content: [
-      "Doctrine of the Faith",
+      "Who we are",
+      <>
+        <strong>The New Hope Church</strong> in Żory is a Protestant Christian
+        community belonging to the Church of Free Christians in the Republic of
+        Poland – an evangelical religious association based on the Holy
+        Scriptures, faith in Jesus Christ and the work of the Holy Spirit.
+      </>,
+      <>
+        We were founded to serve the Ukrainian community in Poland, especially
+        during times of migration and war, but our mission is to create a Church
+        open to all – regardless of nationality, language, or life history.
+      </>,
+      <>
+        We believe that the Church is a spiritual home for everyone who seeks
+        God, hope, truth, and community – and Jesus Christ is the way that
+        unites us across borders.
+      </>,
+      "Our doctrine of the faith",
       "The basis of the Church's faith is Scripture alone (sola scriptura), salvation is by grace alone (sola gratia) and is attained by faith alone (sola fidae). The principles of faith professed by members of the Church are set forth in the following 10 points:",
       <>
         1. <strong>The Bible:</strong> We believe that the Bible, consisting of
@@ -77,7 +94,24 @@ export const dataDoctrinePage = {
 
   UA: {
     content: [
-      "Віровчення",
+      "Хто ми",
+      <>
+        Церква <strong>«Нова Надія»</strong> в Жорах – це протестантська
+        християнська громада, що належить до Церкви Вільних Християн у
+        Республіці Польща – євангельської конфесії, що базується на Святому
+        Письмі, вірі в Ісуса Христа та дії Святого Духа.
+      </>,
+      <>
+        Ми були засновані для служіння українській громаді в Польщі, особливо
+        під час міграції та війни, але наша місія – створити Церкву, відкриту
+        для всіх – незалежно від національності, мови чи походження.
+      </>,
+      <>
+        Ми віримо, що Церква – це духовний дім для кожного, хто шукає Бога,
+        надії, істини та спільноти, а Ісус Христос – це шлях, який об’єднує нас
+        через кордони.
+      </>,
+      "Наше віровчення",
       "Основою віри Церкви є лише Святе Письмо (sola scriptura), спасіння є виключно благодаттю (sola gratia) і досягається виключно вірою (sola fidae). Принципи віри, яку сповідують члени Церкви, викладені у наступних 10 пунктах:",
       <>
         1. <strong>Біблія:</strong> Ми вважаємо, що Біблія складається з 39
@@ -149,7 +183,26 @@ export const dataDoctrinePage = {
 
   PL: {
     content: [
-      "Doktryna Wiary",
+      "Kim jesteśmy",
+      <>
+        Kościół <strong>New Hope</strong> w Żorach to protestancka wspólnota
+        chrześcijańska należąca do Kościoła Wolnych Chrześcijan w
+        Rzeczypospolitej Polskiej – ewangelicznego związku wyznaniowego
+        opierającego się na Piśmie Świętym, wierze w Jezusa Chrystusa i
+        działaniu Ducha Świętego.
+      </>,
+      <>
+        Powstaliśmy, by służyć ukraińskiej społeczności w Polsce, szczególnie w
+        czasie migracji i wojny, ale naszą misją jest tworzenie Kościoła
+        otwartego dla wszystkich – bez względu na narodowość, język czy historię
+        życia.
+      </>,
+      <>
+        Wierzymy, że Kościół to duchowy dom dla każdego, kto szuka Boga,
+        nadziei, prawdy i wspólnoty – a Jezus Chrystus jest drogą, która nas
+        jednoczy ponad granicami.
+      </>,
+      "Nasza doktryna wiary",
       "Podstawą wiary Kościoła jest samo Pismo (sola scriptura), zbawienie jest tylko z łaski (sola gratia) i jest osiągane tylko przez wiarę (sola fidae). Zasady wiary wyznawane przez członków Kościoła są przedstawione w następujących 10 punktach:",
       <>
         1. <strong>Biblia:</strong> Wierzymy, że Biblia, składająca się z 39

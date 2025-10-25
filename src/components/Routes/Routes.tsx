@@ -3,6 +3,7 @@ import { Routes as DomRoutes, Route } from "react-router-dom";
 import {
   HomePage,
   DoctrinePage,
+  ServicesPage,
   VideosPage,
   ContactsPage,
   NotFoundPage,
@@ -11,6 +12,7 @@ import {
 export const Routes = () => (
   <DomRoutes>
     <Route path="/doctrine" element={<DoctrinePage />} />
+    <Route path="/services" element={<ServicesPage />} />
     <Route path="/videos" element={<VideosPage />} />
     <Route path="/contacts" element={<ContactsPage />} />
     <Route path="/" element={<HomePage />} />

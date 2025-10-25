@@ -2,5 +2,6 @@
 export { HomePage } from "./Home";
 export { DoctrinePage } from "./Doctrine";
 export { VideosPage } from "./Videos";
+export { ServicesPage } from "./Services";
 export { ContactsPage } from "./Contacts";
 export { NotFoundPage } from "./NotFound";
